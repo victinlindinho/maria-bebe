@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ffe8f0">
+  <title>presente pro ce mo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+  <main class="page">
+    <div class="top-label"><span>✿</span> espero que voce me perdoe, ta? <span>✿</span></div>
+
+    <section class="intro">
+      <p class="eyebrow"></p>
+      <h1>Oi, meu <em>amor.</em></h1>
+      <p class="subtitle">mo, vou te fazer a menina mais feliz do mundo</p>
+      <div class="tiny-hearts" aria-hidden="true">♡　♥　♡</div>
+    </section>
+
+    <section class="letter-area" aria-label="Cartinha de amor">
+      <button class="envelope" id="openLetter" aria-label="Abrir a cartinha">
+        <span class="envelope-back"></span>
+        <span class="letter-peek">
+          <span class="letter-mini-heart">♥</span>
+          <span>para você</span>
+        </span>
+        <span class="envelope-front"></span>
+        <span class="envelope-flap"></span>
+        <span class="seal">♥</span>
+      </button>
+      <p class="hint" id="hint">abre o envelope amor</p>
+    </section>
+
+
+
+    <footer>eu te amo muito maria eduarda <span>♡</span></footer>
+  </main>
+
+  <div class="modal" id="letterModal" aria-hidden="true">
+    <div class="modal-backdrop" id="closeBackdrop"></div>
+    <article class="letter" role="dialog" aria-modal="true" aria-labelledby="letterTitle">
+      <button class="close" id="closeLetter" aria-label="Fechar cartinha">×</button>
+      <div class="letter-decoration">♡</div>
+      <p class="letter-kicker">abra sempre que lembrar de mim ta</p>
+      <h2 id="letterTitle">Para alguém <em>muito especial</em></h2>
+      <div class="letter-body">
+        <p>minha bebe</p>
+        <p>eu só quero te dizer que eu te quero pra sempre comigo</p>
+        <p>voce vai ser sempre o amor da minha vida</p>
+        <p>desculpa por te fazer chorar</p>
+        <p>eu quero ser a melhor pessoa pra voce e te fazer feliz</p>
+        <p class="signature">Com todo meu carinho, <span>♥</span></p>
+      </div>
+      <div class="letter-bottom">você se tornou a melhor parte do meu dia</div>
+    </article>
+  </div>
+
+  <div class="heart-layer" id="heartLayer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
